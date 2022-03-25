@@ -1,0 +1,147 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+                     :root {
+                        --primeira-cor: white;
+                        --segunda-cor: black;
+                        --terceira-cor: rgb(22, 2, 24);
+                        --quarta-cor: rgb(87, 10, 94);
+                        --quinta-cor: ;
+                        --sexta-cor: ;
+                    }
+                    
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        background: var(--terceira-cor);
+                    }
+                    
+                    .test-none {
+                        display: flex;
+                        position: relative;
+                        top: 15px;
+                    }
+                    
+                    header {
+                        padding-left: 43%;
+                    }
+                    
+                    .test-none>header>nav>ul>li>a {
+                        text-decoration: none;
+                        border: 1px solid var(--primeira-cor);
+                        padding: 4px;
+                        border-radius: 3px;
+                        color: var(--primeira-cor);
+                    }
+                    
+                    .test-none>header>nav>ul>li>a:hover {
+                        border: 1px solid var(--quarta-cor);
+                        color: var(--quarta-cor);
+                    }
+                    
+                    .test-none>header>nav>ul {
+                        list-style: none;
+                        display: flex;
+                        gap: 2rem;
+                    }
+                    
+                    .content-main-1 {
+                        display: flex;
+                        text-align: center;
+                        color: var(--primeira-cor);
+                    }
+                    
+                    .content-main-2 {
+                        background: var(--quarta-cor);
+                        border-radius: 10px;
+                        width: 50%;
+                        height: 30rem;
+                        position: relative;
+                        left: 24%;
+                    }
+                    
+                    .autor-name {
+                        color: var(--primeira-cor);
+                        padding-bottom: 2%;
+                    }
+                    
+                    .btn-custom>section>ul {
+                        display: flex;
+                    }
+                    
+                    .img_augusto>img {
+                        width: 20%;
+                        height: 20%;
+                        border-radius: 50%;
+                    }
+                    
+                    .content-main-2>li {
+                        padding-top: 3%;
+                        list-style: none;
+                    }
+                    
+                    .footer {
+                        color: var(--primeira-cor);
+                    }
+                    
+                    .btn-nubs {
+                        position: relative;
+                        top: 10px;
+                    }
+                    
+                    .btn-nubs>ul>li {
+                        list-style: none;
+                        padding-top: 10px;
+                    }
+                    
+                    .btn-nubs>ul>li>a {
+                        color: var(--primeira-cor);
+                        text-decoration: none;
+                        border: 1px solid var(--primeira-cor);
+                        padding: 4px;
+                    }
+                    
+                    .btn-nubs>ul>li>a:hover {
+                        border: 1px solid var(--segunda-cor);
+                        color: var(--segunda-cor);
+                    }
+                    
+                    @media only screen and (max-width:1029px) {
+                        .footer {
+                            padding-top: 33%;
+                            padding-left: 82%;
+                        }
+                    }
+                    
+                    @media only screen and (max-width:922px) {
+                        .footer {
+                            padding-top: 40%;
+                            padding-left: 78%;
+                        }
+                    }
+                    
+                    @media only screen and (max-width:740px) {
+                        .footer {
+                            padding-top: 46%;
+                            padding-left: 75%;
+                        }
+                    }
+                    
+                    @media only screen and (max-width:700px) {
+                        .footer {
+                            padding-top: 46%;
+                            padding-left: 75%;
+                        }
+                    }
+                    
+                    @media only screen and (max-width:667px) {
+                        .footer {
+                            padding-top: 26%;
+                            padding-left: 50%;
+                        }
+                        .content-main-2>li>a {
+                            justify-content: space-between;
+                        }
+                    }
